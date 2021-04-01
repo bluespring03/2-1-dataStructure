@@ -7,7 +7,20 @@
 
 #include <iostream>
 using namespace std;
+
 int main(){
+    int arr[10];
+    int readCount =0;
+    int readData=0;
+    int i;
     
+    while(1){
+        cout<<"put nummber: ";
+        cin>>readData;
+        if(readData<1) break;
+        
+        arr[readCount++]=readData;
+    }
+    for(i=0; i<readCount; i++) printf("%d ", arr[i]); //cout<<arr[i]<<" "보다 printf%d가 간편함
     return 0;
 }
