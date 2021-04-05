@@ -34,6 +34,8 @@ int main(){
             head=newNode;
         else
             tail->next = newNode;
+        
+        tail = newNode;
     }
     
     //입력받은 데이터 출력과정
@@ -49,7 +51,7 @@ int main(){
         }
     }
     
-    
+
     //메모리 해체과정
     if(head == NULL) return 0;
     else{
@@ -57,11 +59,11 @@ int main(){
         Node*delNextnode=head->next;
         
         cout<<"\n"<<head->data<<"를 삭제합니다.\n";
-        free(delNode);
+        free(delNode);//stdlib에 들어있는 함수임.
         
         while(delNextnode!= NULL){
             delNode=delNextnode;
-            delNextnode = delNextnode->next;
+            delNextnode = delNextnode->next; // dn과 dnn을 옆으로 한칸씩 옮기가
             
             cout<<delNode->data<<"를 삭제합니다.";
             free(delNode);

@@ -4,10 +4,16 @@
 //
 //  Created by 수연 on 2021/04/01.
 //
+//스택 구조ADT
+//void StackInit(Stack *pstack);
+//int SIsEmpty(Stack *pstack);
+//void SPush (Stack *pstack, Data data);
 
 #include <iostream>
+#include "ArrayBaseStack.h"
 using namespace std;
 int main(){
-    cout<<"Hello, world!"<<endl;
+
+    
     return 0;
 }
