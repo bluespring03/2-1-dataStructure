@@ -10,10 +10,11 @@
 //void SPush (Stack *pstack, Data data);
 
 #include <iostream>
-#include "ArrayBaseStack.h"
+#include<stdlib.h>
+//#include "ArrayBaseStack.h"
 using namespace std;
-int main(){
 
-    
-    return 0;
+
+int main(){
+   
 }

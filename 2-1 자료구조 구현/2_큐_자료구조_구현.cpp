@@ -8,7 +8,11 @@
 #include <iostream>
 using namespace std;
 int main(){
+    int a=1;
+    int *ptr_a;
+    ptr_a=&a;
     
+    cout<<ptr_a;
     return 0;
 }
 
