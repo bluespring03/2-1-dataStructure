@@ -5,6 +5,14 @@
 //  Created by 수연 on 2021/04/01.
 //
 
+typedef int Data ;
+
+typedef struct _node{
+    Data data;
+    struct _node *next;
+    
+}
+
 #include <iostream>
 using namespace std;
 int main(){
