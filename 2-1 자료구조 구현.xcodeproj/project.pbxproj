@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0491B66E2672502300FC1E6C /* homework.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0491B66D2672502300FC1E6C /* homework.cpp */; };
+		04D2360826798F4F0047885B /* homework2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D2360726798F4F0047885B /* homework2.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,9 +23,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0491B66D2672502300FC1E6C /* homework.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = homework.cpp; sourceTree = "<group>"; };
+		0491B66D2672502300FC1E6C /* homework.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = homework.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
 		04B2FE2B262F0E10003EA559 /* 포인터.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "포인터.cpp"; sourceTree = "<group>"; };
 		04B2FE2F262F217F003EA559 /* 구조체.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "구조체.cpp"; sourceTree = "<group>"; };
+		04D2360726798F4F0047885B /* homework2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = homework2.cpp; sourceTree = "<group>"; };
 		04DFFB462615EDF300A06F2E /* 2-1 자료구조 구현 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "2-1 자료구조 구현"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04DFFB492615EDF300A06F2E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		04DFFB512615F30100A06F2E /* 1_스택_자료구조_구현.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "1_스택_자료구조_구현.cpp"; sourceTree = "<group>"; };
@@ -72,6 +73,7 @@
 				04DFFB572615F32E00A06F2E /* 2_큐_자료구조_구현.cpp */,
 				04DFFB5A2615F33800A06F2E /* 3_연결리스트_자료구조_구현.cpp */,
 				0491B66D2672502300FC1E6C /* homework.cpp */,
+				04D2360726798F4F0047885B /* homework2.cpp */,
 			);
 			path = "2-1 자료구조 구현";
 			sourceTree = "<group>";
@@ -132,7 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0491B66E2672502300FC1E6C /* homework.cpp in Sources */,
+				04D2360826798F4F0047885B /* homework2.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
