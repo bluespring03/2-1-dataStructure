@@ -10,3 +10,25 @@
 
 
 #endif /* ArrayBaseStack_h */
+//발상 대단해서 갖고옴.
+int main()
+{
+    cin >> N;
+    cout << "정렬전 : " << endl;
+    for (int i = 0; i < N; i++)
+    {
+        cin >> a >> b;
+        v.push_back(pair<int, int>(a, b));
+    }
+
+    sort(v.begin(), v.end());
+
+    cout << endl;
+    cout << "정렬후 : " << endl;
+
+    for (int i = 0; i < N; i++)
+    {
+        cout << v[i].first << " " << v[i].second << endl;
+    }
+}
+
